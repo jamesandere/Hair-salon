@@ -50,6 +50,7 @@ public class StylistTest {
     assertTrue(Stylist.all().contains(secondStylist));
   }
 
+
   @Test
   public void Stylist_findStylistInDataBase_true() {
     Stylist myStylist = new Stylist ("Stylist_name1");

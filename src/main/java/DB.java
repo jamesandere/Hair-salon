@@ -13,8 +13,7 @@ public class DB {
 
         try {
             if (System.getenv("DATABASE_URL") == null) {
-                dbUri = new URI("postgres://ewegydeytusebs:e333db2f4208e7bbace4e51df32d8f4e18f4ab462ec020e9c8bbbc47f8145ae3@ec2-174-129-208-118.compute-1.amazonaws.com:5432/d3njgr6dboe2a9
-@localhost:5432/hair_salon_one");
+                dbUri = new URI("postgres://mrlegwtebcblxo:aa2719e251ec182861ea51579bfa77990d57aac60c1eff89507c960b81167b03@ec2-54-225-116-36.compute-1.amazonaws.com:5432/d7l4lmosh9gq76@localhost:5432/hair_salon_one");
             } else {
                 dbUri = new URI(System.getenv("DATABASE_URL"));
             }

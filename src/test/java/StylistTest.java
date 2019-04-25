@@ -4,9 +4,6 @@ import static org.junit.Assert.*;
 
 public class StylistTest {
 
-  @Rule
-  public DatabaseRule database = new DatabaseRule();
-
   @Test
   public void Stylist_OwnerAddStylist_true() {
     Stylist newStylist = new Stylist ("Stylist_name1");

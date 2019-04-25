@@ -4,9 +4,6 @@ import static org.junit.Assert.*;
 
 public class ClientTest {
 
-  @Rule
-  public DatabaseRule database = new DatabaseRule();
-
   @Test
   public void client_OwnerAddClient_true() {
     Client myClient = new Client("Client Name 1", 1);
